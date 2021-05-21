@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "TelegramPush",
+    "version": "1.0",
+    "author" : "TrungKing",
+    "description": "Push notifications to your Telegram using Telegram Bot. Get chat ID and Bot Token by following these steps https://sean-bradley.medium.com/get-telegram-chat-id-80b575520659",
+    "icons": {
+      "96": "icons/icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "https://api.telegram.org/*",
+        "contextMenus",
+        "menus",
+        "activeTab",
+        "clipboardRead",
+        "storage"
+    ],
+    "options_ui": {
+        "page": "options/options.html"
+    }
+  }
