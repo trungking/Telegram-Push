@@ -64,7 +64,7 @@ browser.menus.create({
     title: 'Send Clipboard',
     contexts: ["all"],
     icons: {
-        "32": "icons/clipboard.jpg"
+        "32": "icons/clipboard.png"
     }
 }, onCreated);
 
